@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "sarah",
+    "password": null,
+    "database": "apple_ceos_v4",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "sarah",
+    "password": null,
+    "database": "apple_ceos_v4",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "sarah",
+    "password": null,
+    "database": "apple_ceos_v4",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

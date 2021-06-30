@@ -1,0 +1,21 @@
+<h1>${title}</h1>
+<ul>
+    ${data.map(executive => 
+        `<li><a href="/${executive.slug}">${executive.name}</a></li>`
+    ).join('')}
+</ul>
+
+<form action="/" method="POST">
+    <label>
+        New CEO Name
+        <!-- Always need to add a name field when using post forms-->
+        <input type="text" name="ceo_name" placeholder="New Apple CEO name"/>
+    </label>
+    <label>
+        Starting Year
+        <input type="number" name = "ceo_year" placeholder="Year the CEO started"/>
+    </label>
+
+    <button type="submit">ADD CEO</button>
+
+</form>
